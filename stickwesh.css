@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Cookies";
+    src: url("Cookies.eot");
+    src: url("Cookies.woff") format("woff"),
+    url("Cookies.otf") format("opentype");
+    
+    }
+
+body{
+    margin: 0;
+}
+
+.row{
+    padding-top: 0%;
+}
+
+
+
+h1{
+    padding-top: 18%;
+    font-family: 'Cookies', sans-serif;
+    text-align: center;
+    font-size: 70px;
+}
+
+p{
+    font-family: 'Cookies';
+    font-size: 30px;
+    text-align: center;
+}
+
+.crybi{
+
+    width: 300px;
+    top: -12%;
+}
+
+.top-wave{
+    position: absolute;
+    top: -12%;
+}
+
+.footer-container{
+    background-color: rgb(245, 176, 222);
+    position: absolute;
+    bottom: 0;
+    height: 130px;
+    width: 100%;
+}
+
+.footer-content{
+    text-align: center;
+    padding: 2.5rem;
+}
+
+h2{
+    font-family: 'Cookies';
+    font-size: 30px;
+}
+
+@media (max-width: 576px) { 
+    .top-wave{
+        top: -1%;
+    }
+
+    .crybi {
+        width: 230px;
+    }
+
+    h1{
+        padding-top: 40%;
+        font-family: 'Cookies', sans-serif;
+        text-align: center;
+        font-size: 50px;
+    }
+    
+    p{
+        font-family: 'Cookies';
+        font-size: 20px;
+        text-align: center;
+    }
+    
+
+    .footer-container{
+        background-color: rgb(245, 176, 222);
+        position: absolute;
+        bottom: 0;
+        height: 112px;
+        width: 100%;
+    }
+    
+    .footer-content{
+        text-align: center;
+        padding: 2.6rem;
+    }
+    
+    h2{
+        font-family: 'Cookies';
+        font-size: 20px;
+    }
+}
+
+
