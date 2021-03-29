@@ -1,0 +1,116 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link
+		href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial"
+		rel="stylesheet" />
+	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+	<script src="./node_modules/mathjax/es5/tex-mml-chtml.js"></script>
+	<script src="./node_modules/mathjs/lib/browser/math.js"></script>
+
+	<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+</head>
+
+<body>
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<span class="icon icon-cog"></span>
+				<h1><a href="#">Group 6 Numerical Analysis MP</a></h1>
+			</div>
+			<div id="menu">
+				<ul>
+					<li class="active"><a href="#" accesskey="1" title="">Homepage</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div id="banner" class="container"><img src="images/banner.jpg" width="1200" height="500" alt="" /></div>
+		<div id="welcome" class="container">
+
+			<div class="title">
+				<h2>Bisection Method</h2>
+			</div>
+			<p>This is a calculator that finds a function root using the bisection method, or interval halving method.
+				You can try to use our calculator by putting an input below. </p>
+		</div>
+		<center>
+			<label for="Input1">$$f(x)$$</label>
+			<input type="text" id="Input1" name="Input1"><br><br>
+
+			<label for="Input2">$$x_0$$</label>
+			<input type="number" id="Input2" name="Input2"><br><br>
+
+			<label for="Input3">$$x_1$$</label>
+			<input type="number" id="Input3" name="Input3"><br><br>
+
+			<label for="Input4">$$\varepsilon$$</label>
+			<input type="number" id="Input4" name="Input4"><br><br>
+
+			<input type="button" value="Enter">
+		</center>
+
+		<div class="outputs">
+			<div class="text-container">
+				<div class="sub-container">
+					<span>Remark: </span>
+					<div class="output"></div>
+				</div>
+				<div class="sub-container">
+					<span>Iterations:</span>
+					<div class="output"></div>
+				</div>
+				<div class="sub-container">
+					<span>Approximated Root: </span>
+					<div class="output"></div>
+				</div>
+				<div class="sub-container">
+					<span>$$f(c_n)$$ </span>
+					<div class="output"></div>
+				</div>
+			</div>
+			<span>Table </span>
+			<div class="output"></div>
+		</div>
+
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<h2>
+				<p>MEMBERS: </p>
+			</h2>
+			<div class="fbox1">
+				<span>Ancheta,
+					<br />Isabel Hazel Flor G.</span>
+			</div>
+			<div class="fbox1">
+
+				<span>
+					Dela Peña
+					<br />Ezra Daniel R.</span>
+				</span>
+			</div>
+			<div class="fbox1">
+				<span>Esteron,
+					<br />Geezan Loi D.</span>
+			</div>
+		</div>
+	</div>
+	<div id="copyright">
+		<p>&copy; All rights reserved @ 2021 | Group 6 Numerical Analysis | ANCHETA , DELA PEÑA , ESTERON</a>.</p>
+	</div>
+
+	<script src="Bisection.js"></script>
+</body>
+
+</html>

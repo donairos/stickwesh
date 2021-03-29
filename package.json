@@ -1,0 +1,13 @@
+{
+  "name": "numanal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {},
+  "author": "Ancheta, DelaPena, Esteron",
+  "license": "ISC",
+  "dependencies": {
+    "mathjax": "^3.1.2",
+    "mathjs": "^9.3.0"
+  }
+}
